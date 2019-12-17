@@ -77,7 +77,11 @@ typings/
 
 # Next.js build output
 .next
-
+#modules to ignore
+node_modules
+client/node_modules
+package-lock.json
+client/package-lock.json
 # Nuxt.js build / generate output
 .nuxt
 dist
